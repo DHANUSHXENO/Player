@@ -9,5 +9,5 @@ main()
         fact=fact*a;
         a--;
     }
-    printf("%d",fact);
+    printf("Factorial is ::%d",fact);
 }
