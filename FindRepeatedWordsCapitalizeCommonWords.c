@@ -2,7 +2,6 @@
 main()
 {
     char ch[50];int i,j,flag=0;
-    printf("Enter a word");
     gets(ch);
     for(i=0;i<strlen(ch);i++)
     {
