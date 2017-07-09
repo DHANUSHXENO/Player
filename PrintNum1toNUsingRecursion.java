@@ -12,7 +12,7 @@ public class PrintNum1toNUsingRecursion {
 		if(i==n)
 			return "";
 		else
-			return (++i)+print(n);
+			return (++i)+" "+print(n);
 	}
 
 }
