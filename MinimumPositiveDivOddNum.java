@@ -9,7 +9,7 @@ public class MinimumPositiveDivOddNum {
 		do {
 			++i;
 		}while(!(n%i==1));
-		System.out.println("Minimum positive integer to be divided to make the number odd"+i);
+		System.out.println("Minimum positive integer to be divided to make the number odd is "+i);
 		sc.close();
 	}
 }
