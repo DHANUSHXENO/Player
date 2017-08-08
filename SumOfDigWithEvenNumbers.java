@@ -4,18 +4,18 @@ public class SumOfDigWithEvenNumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the size");
-		int n=sc.nextInt();
-		System.out.println("Enter the digits");
+		System.out.println("Enter the integer");
+		int num=sc.nextInt();	
+		int ans=0;
 		int i;
-		int sum=0;
-		for(i=0;i<n;i++) {
-			int num=sc.nextInt();
-			if(num%2==0) {
-				sum=sum+num;
+		for(i=0;i<num+"".length();i++) {
+			int digit=num%10;
+			if(digit%2==0) {
+				ans=ans+digit;
 			}
+			num=num/10;
 		}
-		System.out.println("Even sum : "+sum);
+		System.out.println("Even sum : "+ans);
 		sc.close();
 	}
 }
